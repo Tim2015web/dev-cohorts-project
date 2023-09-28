@@ -1,0 +1,71 @@
+/*Common style*/
+
+body,
+a {
+  font-family: "Work Sans";
+  color: #1E266D !important;
+}
+
+.color-main {
+  color: #1E266D !important;
+}
+
+.line {
+  height: 1px;
+  background: rgba(69, 88, 128, 0.20);
+}
+
+.hero {
+  background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+
+  img {
+    margin-bottom: -12%;
+  }
+}
+
+.logos {
+  margin-top: 12%;
+}
+
+.about {
+
+  h3,
+  p {
+    color: #1E266D !important;
+  }
+}
+
+.portfolio {
+  background-color: #FFF9EA;
+}
+
+.testimonials {
+
+  h2,
+  h4,
+  p {
+    color: #1E266D !important;
+  }
+}
+
+.cta {
+  background: #3751FF;
+
+  h2 {
+    color: #ffffff;
+  }
+
+  button {
+    color: #455880;
+    min-width: 200px;
+
+  }
+
+  p {
+    color: #DFE0EB;
+  }
+
+  .col {
+   align-items: flex-end;
+  }
+}

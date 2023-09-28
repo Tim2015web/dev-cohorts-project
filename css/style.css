@@ -1,0 +1,159 @@
+/*
+@media (min-width: 641px) and (max-width: 1200px) {}
+@media (max-width: 640px) {}
+*/
+/*Null styles*/
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:link,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/*--------------------*/
+/*Fonts*/
+/*
+@font-face {
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Bebas Neue"),
+        url("../fonts/BebasNeue-Regular.woff2") format("woff2"),
+        url("../fonts/BebasNeue-Regular.woff") format("woff")
+}
+*/
+/*Common style*/
+body,
+a {
+  font-family: "Work Sans";
+  color: #1E266D !important;
+}
+
+.color-main {
+  color: #1E266D !important;
+}
+
+.line {
+  height: 1px;
+  background: rgba(69, 88, 128, 0.2);
+}
+
+.hero {
+  background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+}
+.hero img {
+  margin-bottom: -12%;
+}
+
+.logos {
+  margin-top: 12%;
+}
+
+.about h3,
+.about p {
+  color: #1E266D !important;
+}
+
+.portfolio {
+  background-color: #FFF9EA;
+}
+
+.testimonials h2,
+.testimonials h4,
+.testimonials p {
+  color: #1E266D !important;
+}
+
+.cta {
+  background: #3751FF;
+}
+.cta h2 {
+  color: #ffffff;
+}
+.cta button {
+  color: #455880;
+  min-width: 200px;
+}
+.cta p {
+  color: #DFE0EB;
+}
+.cta .col {
+  align-items: flex-end;
+}
